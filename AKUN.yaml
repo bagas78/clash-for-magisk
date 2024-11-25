@@ -1,0 +1,42 @@
+proxies:
+  - name: SG
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: 3b165720-aade-11ef-88af-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+
+  - name: UK
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: 42eb9930-aae5-11ef-9158-1239d0255272
+    skip-cert-verify: true
+    sni: uk1.test3.net
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: uk1.test3.net
+    udp: true
+
+  - name: Shopee
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: 3b5c70de-02a7-41f3-b750-9ee08374b251
+    skip-cert-verify: true
+    sni: sg3.nathaya.eu.org
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg3.nathaya.eu.org
+    udp: true
