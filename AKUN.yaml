@@ -1,32 +1,4 @@
 proxies:
-  - name: SG
-    server: 104.22.4.240
-    port: 443
-    type: trojan
-    password: 3b165720-aade-11ef-88af-1239d0255272
-    skip-cert-verify: true
-    sni: sg3-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg3-trojan.bonds.id
-    udp: true
-
-  - name: SG-HE
-    server: 104.22.4.240
-    port: 443
-    type: trojan
-    password: c6764550-ab0c-11ef-a58c-1239d0255272
-    skip-cert-verify: true
-    sni: sg3-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg3-trojan.bonds.id
-    udp: true
-
   - name: UK
     server: 104.22.4.240
     port: 443
