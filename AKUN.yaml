@@ -27,8 +27,8 @@ proxies:
         Host: sg3.nathaya.web.id
     udp: true
 
-  - name: Youtube_12/22/2024
-    server: 172.217.12.142
+  - name: Vidio_12/22/2024
+    server: img.email3.vidio.com
     port: 443
     type: trojan
     password: 3b5c70de-02a7-41f3-b750-9ee08374b251
