@@ -28,7 +28,7 @@ proxies:
     udp: true
 
   - name: US
-    server: 104.17.156.243
+    server: 104.22.4.240
     port: 443
     type: trojan
     password: 4ec064d0-acf9-11ef-9fc5-1239d0255272
@@ -42,7 +42,7 @@ proxies:
     udp: true
 
   - name: FRANCE
-    server: 104.20.244.135
+    server: 104.22.4.240
     port: 443
     type: trojan
     password: e9184d60-acfa-11ef-be14-1239d0255272
