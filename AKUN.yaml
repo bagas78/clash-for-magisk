@@ -14,7 +14,7 @@ proxies:
     udp: true
 
   - name: Shopee_12/22/2024
-    server: img.email3.vidio.com
+    server: 104.17.159.243
     port: 443
     type: trojan
     password: 3b5c70de-02a7-41f3-b750-9ee08374b251
