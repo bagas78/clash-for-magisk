@@ -13,8 +13,22 @@ proxies:
         Host: uk1.test3.net
     udp: true
 
-  - name: Shopee_12/22/2024
+  - name: Shopee_1_12/22/2024
     server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: 3b5c70de-02a7-41f3-b750-9ee08374b251
+    skip-cert-verify: true
+    sni: sg3.nathaya.web.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg3.nathaya.web.id
+    udp: true
+
+- name: Shopee_2_12/22/2024
+    server: 104.17.159.243
     port: 443
     type: trojan
     password: 3b5c70de-02a7-41f3-b750-9ee08374b251
